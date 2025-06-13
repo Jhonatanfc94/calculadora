@@ -8,6 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: saludar
+        uses: actions/hello-user-jhontanfc94@v1.0
+        with:
+          who-to-greer: 'Jhona'
+          
       - name: Checkout
         uses: actions/checkout@v4.2.2
 
