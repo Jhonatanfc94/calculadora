@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: saludar
-        uses: jhonatanfc94/hello-user-jhontanfc94@v1.0
+      - name: Hello user jhontanfc94
+        uses: Jhonatanfc94/my_action@v1.0
         with:
           who-to-greet: 'Jhona'
           
