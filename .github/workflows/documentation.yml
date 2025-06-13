@@ -9,9 +9,9 @@ jobs:
 
     steps:
       - name: saludar
-        uses: actions/hello-user-jhontanfc94@v1.0
+        uses: jhonatanfc94/hello-user-jhontanfc94@v1.0
         with:
-          who-to-greer: 'Jhona'
+          who-to-greet: 'Jhona'
           
       - name: Checkout
         uses: actions/checkout@v4.2.2
